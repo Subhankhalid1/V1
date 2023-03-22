@@ -1,0 +1,33 @@
+
+#bag{
+    width: 200px;
+    height: 500px;
+    border: 2px solid firebrick;
+    margin: 0 auto;
+    background-image: url(https://github.com/iamshaunjp/vuejs-playlist/blob/lesson-13/img/bag.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background: url('/images/bag.png') center no-repeat!important; */
+    background-size: 80%;
+    margin-bottom: 50px;
+}
+#bag.burst{
+    background-image: url(https://github.com/iamshaunjp/vuejs-playlist/blob/lesson-13/img/bag-burst.png?raw=true);
+}
+
+#bag-health{
+   border: 2px solid #000;
+    width: 200px;
+    margin: 0 auto 20px auto;
+}
+
+#bg-health-inside{
+    height: 25px!important;
+    background-color: red!important;
+}
+
+#controls{
+    width: 120px;
+    margin: 0 auto;
+}
